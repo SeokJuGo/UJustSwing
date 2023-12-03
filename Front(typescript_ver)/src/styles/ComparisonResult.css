@@ -1,0 +1,85 @@
+#comparison-result-container {
+    padding-top: 30px;
+
+}
+
+#comparison-result-container h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+#comparison-result-container p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#comparison-result-container h6 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#comparison-result-mov {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-left: -55px;
+    width: 450px;
+    text-align: center;
+    padding: 15px;
+}
+
+#comparison-result-mov .tab-content h6 {
+    line-height: 25px;
+}
+
+#comparison-result-text {
+    width: 300px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#result-onoff-btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 150px;
+    margin: 10px;
+}
+
+#comparison-result-text h5 {
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#comparison-result-text span {
+    display: block;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.result-btn {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 모바일 */
+@media (max-width: 649px) {
+    #comparison-result-text {
+        width: 350px;
+    }
+
+    #comparison-result-mov {
+        width: 90vw;
+        margin-left: -20px;
+    }
+
+    #comparison-result-text h5 {
+        margin-left: -20px;
+    }
+}

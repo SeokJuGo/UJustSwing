@@ -1,0 +1,56 @@
+#account-bg {
+    width: 100%;
+    height: 30vh;
+    background-color: #9DC08B;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 6px solid white;
+    position: absolute;
+    background-color: #9DC08B;
+    background-image: url("../../public/img/user_default_img.png");
+    bottom: -75px;
+}
+
+#profile-desc {
+    position: absolute;
+    bottom: -45px;
+    left: 180px;
+}
+
+#account-article {
+    margin-bottom: 40px;
+}
+
+#user-ranking, #user-chart {
+    text-align: center;
+}
+
+#user-ranking h3, #user-chart h3 {
+    font-weight: bold;
+}
+
+#user-ranking h5 {
+    color: black;
+}
+
+#user-ranking img {
+    width: 300px;
+    transition: all 0.3s;
+}
+
+#user-ranking img:hover {
+    width: 350px;
+}
+
+/* 모바일 */
+@media (max-width: 649px) {
+    #user-chart {
+        margin-top: 20px;
+    }
+}
